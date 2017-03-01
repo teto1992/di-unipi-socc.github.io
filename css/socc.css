@@ -1,0 +1,29 @@
+/* Navbar */
+.navbar-socc {
+  background-color: #332828;
+  border-color: #e7e7e7;
+  color: white;
+}
+
+
+/* Sections */
+
+.scrolling-white-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.scrolling-gray-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+/* Logo */
+.logo {
+	max-width: 50%;
+	max-height: 50%;
+}
