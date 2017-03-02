@@ -12,7 +12,7 @@ var loadPeopleFrom = function (peopleURL) {
 			p.className = "col-lg-3";
 			
 			var name = document.createElement("h3");
-			name.innerHTML = "<b>" + this.name.toUpperCase() + "</b>";
+			name.innerHTML = this.name.toUpperCase();
 			p.appendChild(name);
 			
 			var aPhoto = document.createElement("a");
@@ -56,7 +56,7 @@ var loadProjectsFrom = function (projectsURL) {
 			proj.className = "col-lg-4";
 			
 			var title = document.createElement("h3");
-			title.innerHTML = "<b>" + this.title + "</b>";
+			title.innerHTML = this.title;
 			proj.appendChild(title);
 			
 			var logo = document.createElement("img");

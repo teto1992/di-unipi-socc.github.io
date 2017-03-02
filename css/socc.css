@@ -1,3 +1,7 @@
+h1,h2,h3,h4 {
+	font-weight: bold;
+}
+
 /* Navbar */
 .navbar-socc {
   background-color: #332828;
@@ -5,9 +9,7 @@
   color: white;
 }
 
-
 /* Sections */
-
 .scrolling-white-section {
     min-height: 100%;
     padding-top: 150px;
@@ -20,6 +22,11 @@
     padding-top: 150px;
     text-align: center;
     background: #eee;
+}
+
+/* Labels, Buttons */
+.label-socc, .btn-socc {
+	font-weight: normal;
 }
 
 /* Images */
