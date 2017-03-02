@@ -59,6 +59,23 @@ var loadProjectsFrom = function (projectsURL) {
 			title.innerHTML = "<b>" + this.title + "</b>";
 			proj.appendChild(title);
 			
+			var logo = document.createElement("img");
+			logo.className = "project-logo";
+			switch(this.type) {
+				case "eu": 
+					logo.setAttribute("src","img/projects/eu.png");
+					break;
+				case "it": 
+					logo.setAttribute("src","img/projects/it.png");
+					break;
+				case "unipi": 
+					logo.setAttribute("src","img/projects/unipi.png");
+					break;
+				default:
+					break;
+			}
+			proj.appendChild(logo);
+			
 			var aId = document.createElement("a");
 			aId.setAttribute("href",this.home);
 			aId.setAttribute("target","_blank");
