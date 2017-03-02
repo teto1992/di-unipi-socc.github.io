@@ -1,31 +1,31 @@
 [{
 	"name": "Antonio Brogi",
-	"photo": "img/brogi.png",
+	"photo": "img/people/brogi.png",
 	"home": "http://pages.di.unipi.it/brogi",
 	"position": "full-professor"
 }, {
 	"name": "Ahmad Ibrahim",
-	"photo": "img/ibrahim.png",
+	"photo": "img/people/ibrahim.png",
 	"home": "http://pages.di.unipi.it/ibrahim",
 	"position": "post-doc"
 }, {
 	"name": "Stefano Forti",
-	"photo": "img/forti.png",
+	"photo": "img/people/forti.png",
 	"home": "http://pages.di.unipi.it/forti",
 	"position": "phd-student"
 }, {
 	"name": "Davide Neri",
-	"photo": "img/neri.png",
+	"photo": "img/people/neri.png",
 	"home": "http://pages.di.unipi.it/neri",
 	"position": "phd-student"
 }, {
 	"name": "Jacopo Soldani",
-	"photo": "img/soldani.png",
+	"photo": "img/people/soldani.png",
 	"home": "http://pages.di.unipi.it/soldani",
 	"position": "phd-student"
 }, {
 	"name": "Luca Rinaldi",
-	"photo": "img/rinaldi.png",
+	"photo": "img/people/rinaldi.png",
 	"home": "http://lucar.in",
 	"position": "master-student"
 }]
