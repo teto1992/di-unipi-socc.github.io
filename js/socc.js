@@ -60,8 +60,8 @@ var loadProjectsFrom = function (projectsURL) {
 			proj.appendChild(title);
 			
 			var aId = document.createElement("a");
-			aLogo.setAttribute("href",this.home);
-			aLogo.setAttribute("target","_blank");
+			aId.setAttribute("href",this.home);
+			aId.setAttribute("target","_blank");
 			var id = document.createElement("p");
 			id.innerHTML = this.id;
 			aId.appendChild(id);
