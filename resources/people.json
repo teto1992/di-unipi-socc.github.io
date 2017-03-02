@@ -1,0 +1,30 @@
+{
+	"full-professors": [{
+		"name": "Antonio Brogi",
+		"photo": "img/brogi.png",
+		"home": "http://pages.di.unipi.it/brogi"
+	}],
+	"post-doc-researchers": [{
+		"name": "Ahmad Ibrahim",
+		"photo": "img/ibrahim.png",
+		"home": "http://pages.di.unipi.it/ahmad"
+	}],
+	"phd-students": [{
+		"name": "Stefano Forti",
+		"photo": "img/forti.png",
+		"home": "http://pages.di.unipi.it/forti"
+	}, {
+		"name": "Davide Neri",
+		"photo": "img/neri.png",
+		"home": "http://pages.di.unipi.it/neri"
+	}, {
+		"name": "Jacopo Soldani",
+		"photo": "img/soldani.png",
+		"home": "http://pages.di.unipi.it/soldani"
+	}],
+	"master-students": [{
+		"name": "Luca Rinaldi",
+		"photo": "img/rinaldi.png",
+		"home": "http://lucar.in"
+	}]
+}
