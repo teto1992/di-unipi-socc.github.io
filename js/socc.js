@@ -12,7 +12,7 @@ var loadPeopleFrom = function (peopleURL) {
 			p.className = "col-lg-3";
 			
 			var name = document.createElement("h3");
-			name.innerHTML = this.name + this.surname.toUpperCase();
+			name.innerHTML = this.name + " " + this.surname.toUpperCase();
 			p.appendChild(name);
 			
 			var aPhoto = document.createElement("a");
