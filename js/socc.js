@@ -51,7 +51,7 @@ var loadPeopleFrom = function (peopleURL) {
 var loadProjectsFrom = function (projectsURL) {
 	$.getJSON(projectsURL, function (projects) {
 		var projectsDiv = $("#projects-content")[0];
-		$.each(people, function (i) {
+		$.each(projects, function (i) {
 			var proj = document.createElement("div");
 			proj.className = "col-lg-3";
 			
