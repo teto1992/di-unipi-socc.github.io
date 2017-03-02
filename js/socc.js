@@ -53,20 +53,19 @@ var loadProjectsFrom = function (projectsURL) {
 		var projectsDiv = $("#projects-content")[0];
 		$.each(projects, function (i) {
 			var proj = document.createElement("div");
-			proj.className = "col-lg-3";
+			proj.className = "col-lg-4";
 			
 			var title = document.createElement("h3");
 			title.innerHTML = "<b>" + this.title + "</b>";
 			proj.appendChild(title);
 			
-			var aLogo = document.createElement("a");
+			var aId = document.createElement("a");
 			aLogo.setAttribute("href",this.home);
 			aLogo.setAttribute("target","_blank");
-			var logo = document.createElement("img");
-			logo.className = "project-logo";
-			logo.setAttribute("src", this.logo);
-			aLogo.appendChild(logo);
-			proj.appendChild(aLogo);
+			var id = document.createElement("p");
+			id.innerHTML = this.id;
+			aId.appendChild(id);
+			proj.appendChild(aId);
 			
 			var subtitle = document.createElement("p");
 			subtitle.innerHTML = this.subtitle;
