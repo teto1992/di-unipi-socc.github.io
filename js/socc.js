@@ -1,7 +1,7 @@
 $(function() {
 	loadPeopleFrom("https://raw.githubusercontent.com/di-unipi-socc/di-unipi-socc.github.io/master/resources/people.json");
 	loadProjectsFrom("https://raw.githubusercontent.com/di-unipi-socc/di-unipi-socc.github.io/master/resources/research-projects.json");
-	
+	loadNewsFrom("https://raw.githubusercontent.com/di-unipi-socc/di-unipi-socc.github.io/master/resources/news.json");
 });
 
 var loadPeopleFrom = function (peopleURL) {
@@ -89,6 +89,23 @@ var loadProjectsFrom = function (projectsURL) {
 			proj.appendChild(subtitle);
 			
 			projectsDiv.appendChild(proj);
+		});
+	});
+}
+
+var loadNewsFrom = function (newsURL) {
+	$.getJSON(newsURL, function (news) {
+		var newsDiv = $("#news-content")[0];
+		var newsList = document.createElement("ul");
+		newsList.className = "list-group";
+		newsDiv.appendChild(newsList);
+		
+		console.log(news)
+		$.each(news, function(i) {
+			var n = document.createElement("li");
+			n.className = "list-group-item";
+			n.innerHTML = "<span class='badge'>"+this.date+"</span>"+this.content;
+			newsList.appendChild(n);
 		});
 	});
 }
