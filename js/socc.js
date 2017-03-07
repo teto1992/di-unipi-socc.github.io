@@ -100,11 +100,34 @@ var loadNewsFrom = function (newsURL) {
 		newsList.className = "list-group";
 		newsDiv.appendChild(newsList);
 		
-		console.log(news)
 		$.each(news, function(i) {
 			var n = document.createElement("li");
 			n.className = "list-group-item";
-			n.innerHTML = "<span class='badge'>"+this.date+"</span>"+this.content;
+			
+			var nDate = document.createElement("span");
+			nDate.className="badge";
+			nDate.innerHTML = this.date;
+			n.appendChild(nDate);
+			
+			var nContent = document.createElement("div");
+			nContent.className = "news";
+			n.appendChild(nContent);
+			
+			switch(this.type) {
+				case "conference-paper":
+					nContent.innerHTML = "The paper <em>" + this.title + 
+						"</em> has been accepted at the <em>" + 
+						this.conference.name + "</em> " +
+						"(<a href='"+this.conference.url + "' target='_blank'>"+
+						this.conference.shortname + "</a>). It will be presented by "+
+						this.who + ".";
+					break;
+				case "misc": 
+					nContent.innerHTML = this.content;
+					break;
+				default:
+					break;
+			}
 			newsList.appendChild(n);
 		});
 	});
