@@ -11,7 +11,7 @@
 },{
 	"type": "conference-paper",
 	"date": "07-03-2017",
-	"title": "How to best deploy your Fog applications, probably"
+	"title": "How to best deploy your Fog applications, probably",
 		"conference": {
 		"name": "1st IEEE International Conference on Fog and Edge Computing",
 		"shortname": "ICFEC 2017",
