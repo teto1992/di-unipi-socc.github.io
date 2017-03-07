@@ -9,7 +9,7 @@ var loadPeopleFrom = function (peopleURL) {
 		var peopleDiv = $("#people-content")[0];
 		$.each(people, function (i) {
 			var p = document.createElement("div");
-			p.className = "col-lg-3";
+			p.className = "col-lg-4";
 			
 			var name = document.createElement("h3");
 			name.innerHTML = this.name + " " + this.surname.toUpperCase();
