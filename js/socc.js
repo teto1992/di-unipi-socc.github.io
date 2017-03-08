@@ -115,12 +115,11 @@ var loadNewsFrom = function (newsURL) {
 			
 			switch(this.type) {
 				case "conference-paper":
-					nContent.innerHTML = "The paper <em>" + this.title + 
-						"</em> has been accepted at the <em>" + 
+					nContent.innerHTML = "The paper <em>'" + this.title + 
+						"'</em> has been accepted at the <em>" + 
 						this.conference.name + "</em> " +
 						"(<a href='"+this.conference.url + "' target='_blank'>"+
-						this.conference.shortname + "</a>). It will be presented by "+
-						this.who + ".";
+						this.conference.shortname + "</a>).";
 					break;
 				case "misc": 
 					nContent.innerHTML = this.content;

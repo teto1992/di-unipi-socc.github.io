@@ -6,8 +6,7 @@
 		"name": "5th IEEE International Conference on Cloud Engineering",
 		"shortname": "IC2E 2017",
 		"url" : "http://conferences.computer.org/IC2E/2017/"
-	},
-	"who": "Davide Neri"
+	}
 },{
 	"type": "conference-paper",
 	"date": "07-03-2017",
@@ -16,8 +15,7 @@
 		"name": "1st IEEE International Conference on Fog and Edge Computing",
 		"shortname": "ICFEC 2017",
 		"url" : "http://fec-conf.gforge.inria.fr/"
-	},
-	"who": "Stefano Forti"
+	}
 },{
 	"type": "misc",
 	"date": "01-03-2017",
