@@ -35,10 +35,13 @@ var loadPeopleFrom = function (peopleURL) {
 				case "phd-student":
 					position.innerHTML = "PhD Student";
 					break
-				case "master-student":
-					position.innerHTML = "MSc Student";
-					break
-				default:
+			    case "msc-student":
+			        position.innerHTML = "MSc Student";
+			        break
+			    case "msc":
+			        position.innerHTML = "MSc";
+			        break
+			    default:
 					position.innerHTML = "Other";
 			}			
 			p.appendChild(position);
