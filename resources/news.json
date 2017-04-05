@@ -1,5 +1,14 @@
 [{
 	"type": "conference-paper",
+	"date": "04-04-2017",
+	"title": "Modelling the dynamic reconfiguration of application topologies, faults included.",
+		"conference": {
+		"name": "19th International Conference on Coordination Models and Languages",
+		"shortname": "COORDINATION 2017",
+		"url" : "http://2017.discotec.org/calls/coordination-2017"
+	}
+},{
+	"type": "conference-paper",
 	"date": "07-03-2017",
 	"title": "DockerFinder: Multi-attribute search of Docker images",
 	"conference": {
