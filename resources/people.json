@@ -11,6 +11,12 @@
 	"home": "http://pages.di.unipi.it/ibrahim",
 	"position": "post-doc"
 }, {
+	"name": "Jacopo",
+	"surname": "Soldani",
+	"photo": "img/people/soldani.png",
+	"home": "http://pages.di.unipi.it/soldani",
+	"position": "post-doc"
+}, {
 	"name": "Stefano",
 	"surname": "Forti",
 	"photo": "img/people/forti.png",
@@ -21,12 +27,6 @@
 	"surname": "Neri",
 	"photo": "img/people/neri.png",
 	"home": "http://pages.di.unipi.it/neri",
-	"position": "phd-student"
-}, {
-	"name": "Jacopo",
-	"surname": "Soldani",
-	"photo": "img/people/soldani.png",
-	"home": "http://pages.di.unipi.it/soldani",
 	"position": "phd-student"
 }, {
 	"name": "Luca",
