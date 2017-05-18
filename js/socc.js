@@ -1,7 +1,6 @@
 $(function() {
 	loadPeopleFrom("https://raw.githubusercontent.com/di-unipi-socc/di-unipi-socc.github.io/master/resources/people.json");
 	loadProjectsFrom("https://raw.githubusercontent.com/di-unipi-socc/di-unipi-socc.github.io/master/resources/research-projects.json");
-	loadNewsFrom("https://raw.githubusercontent.com/di-unipi-socc/di-unipi-socc.github.io/master/resources/news.json");
 });
 
 var loadPeopleFrom = function (peopleURL) {
@@ -92,45 +91,6 @@ var loadProjectsFrom = function (projectsURL) {
 			proj.appendChild(subtitle);
 			
 			projectsDiv.appendChild(proj);
-		});
-	});
-}
-
-var loadNewsFrom = function (newsURL) {
-	$.getJSON(newsURL, function (news) {
-		var newsDiv = $("#news-content")[0];
-		var newsList = document.createElement("ul");
-		newsList.className = "list-group";
-		newsDiv.appendChild(newsList);
-		
-		$.each(news, function(i) {
-			var n = document.createElement("li");
-			n.className = "list-group-item";
-			
-			var nDate = document.createElement("span");
-			nDate.className="badge";
-			nDate.innerHTML = this.date;
-			n.appendChild(nDate);
-			
-			var nContent = document.createElement("div");
-			nContent.className = "news";
-			n.appendChild(nContent);
-			
-			switch(this.type) {
-				case "conference-paper":
-					nContent.innerHTML = "The paper <em>'" + this.title + 
-						"'</em> has been accepted at the <em>" + 
-						this.conference.name + "</em> " +
-						"(<a href='"+this.conference.url + "' target='_blank'>"+
-						this.conference.shortname + "</a>).";
-					break;
-				case "misc": 
-					nContent.innerHTML = this.content;
-					break;
-				default:
-					break;
-			}
-			newsList.appendChild(n);
 		});
 	});
 }
