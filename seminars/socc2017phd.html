@@ -1,0 +1,243 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SOCC </title>
+	
+    <!-- CSS -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+	<link href="../css/scrolling-nav.css" rel="stylesheet">
+	<link href="../css/socc.css" rel="stylesheet">
+
+	<!-- Customised font -->
+	<link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
+	<style>
+	body { 
+		font-family: 'Crete Round', serif;
+		font-size: 20px;
+	}
+	</style>
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li>
+                        <a class="page-scroll" href="#intro">MAIN</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#brogi">12/5</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#soldani">19/5</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#neri">26/5</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#rinaldi">01/6</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#ibrahim">09/6</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#forti">16/6</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#guest">TBA</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="scrolling-white-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a href="https://di-unipi-socc.github.io/" target="_blank"><img src="../img/socc-logo.png" class="logo" style="max-width:50%"/></a>
+                    <h2>Service, cloud, and fog computing</h2>
+					<p style="text-align: justify">
+					This series of seminars aims at introducing some of the main aspects in service-based, cloud-based and fog computing by covering both modelling and analysis aspects (e.g., app deployment, management, QoS prediction) and implementation aspects (e.g., Docker, microservices, DevOps practices). The seminars will also illustrate some of the ongoing research carried on by the SoCC research group, and they will point to some open problems on which the possible cooperation of seminar attendees is welcome.
+					</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brogi -->
+    <section id="brogi" class="scrolling-gray-section">
+        <div class="container">
+            <div class="row">
+				<h1>Introduction to service, cloud and fog computing</h1>
+                <p>by 
+                    <a href="http://pages.di.unipi.it/brogi" target="_blank">Antonio Brogi</a>
+                </p>
+            </div>
+            <div class="row">
+                <p style="text-align:justify">
+                    <b>Abstract.</b>
+                    TBA
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Soldani -->
+    <section id="soldani" class="scrolling-white-section">
+        <div class="container">
+            <div class="row">
+                <h1>Fault-aware management of cloud-based applications</h1>
+                <p>
+                    by
+                    <a href="http://pages.di.unipi.it/soldani" target="_blank">Jacopo Soldani</a>
+                </p>
+            </div>
+            <div class="row">
+                <p style="text-align:justify">
+                    <b>Abstract.</b>
+                    Managing complex applications over heterogeneous clouds is one of the emerging problems in the cloud era. The OASIS Topology and Orchestration Specification for Cloud Applications (TOSCA) aims at solving this problem by providing a language to describe and manage complex cloud applications in a portable and vendor-agnostic way.
+                    <br />
+                    This seminar illustrates so-called <em>fault-aware management protocols</em>, which permit modelling the management behaviour of application components by taking into account the potential occurrence of faults. The seminar also shows how such protocols can be composed to analyse the behaviour of a multi-component application and to automate its management. We also illustrate a way to recover applications that are stuck because a fault was not properly handled and/or because a component is behaving differently than expected.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Neri -->
+    <section id="neri" class="scrolling-gray-section">
+        <div class="container">
+            <div class="row">
+                <h1>Microservices and Docker</h1>
+                <p>
+                    by
+                    <a href="http://pages.di.unipi.it/neri" target="_blank">Davide Neri</a>
+                </p>
+            </div>
+            <div class="row">
+                <p style="text-align:justify">
+                    <b>Abstract.</b>
+                    TBA
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rinaldi -->
+    <section id="rinaldi" class="scrolling-white-section">
+        <div class="container">
+            <div class="row">
+                <h1>Combining TOSCA and Docker</h1>
+                <p>
+                    by
+                    <a href="http://lucar.in/" target="_blank">Luca Rinaldi</a>
+                </p>
+            </div>
+            <div class="row">
+                <p style="text-align:justify">
+                    <b>Abstract.</b>
+                    TBA
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ibrahim -->
+    <section id="ibrahim" class="scrolling-gray-section">
+        <div class="container">
+            <div class="row">
+                <h1>Predicting quality of service of software applications</h1>
+                <p>
+                    by
+                    <a href="http://pages.di.unipi.it/ibrahim" target="_blank">Ahmad Ibrahim</a>
+                </p>
+            </div>
+            <div class="row">
+                <p style="text-align:justify">
+                    <b>Abstract.</b>
+                    TBA
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Forti -->
+    <section id="forti" class="scrolling-white-section">
+        <div class="container">
+            <div class="row">
+                <h1>App deployment through the fog</h1>
+                <p>
+                    by
+                    <a href="http://pages.di.unipi.it/forti" target="_blank">Stefano Forti</a>
+                </p>
+            </div>
+            <div class="row">
+                <p style="text-align:justify">
+                    <b>Abstract.</b>
+                    TBA
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guest-->
+    <section id="guest" class="scrolling-gray-section">
+        <div class="container">
+            <div class="row">
+                <h1>TBA</h1>
+                <!--
+                <p>
+                    by
+                    <a href="" target="_blank">TBA</a>
+                </p>
+                -->
+            </div>
+            <div class="row">
+                <p style="text-align:justify">
+                    <b>Abstract.</b>
+                    TBA
+                </p>
+            </div>
+        </div>
+    </section>
+	
+	<!-- jQuery -->
+    <script src="../js/lib/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/lib/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="../js/lib/jquery.easing.min.js"></script>
+    <script src="../js/lib/scrolling-nav.js"></script>
+
+</body>
+
+</html>
