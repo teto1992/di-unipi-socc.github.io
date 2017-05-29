@@ -37,8 +37,11 @@ var loadPeopleFrom = function (peopleURL) {
 			    case "msc-student":
 			        position.innerHTML = "MSc Student";
 			        break
+			    case "research-assistant":
+			        position.innerHTML = "Research assistant";
+			        break
 			    case "msc":
-			        position.innerHTML = "MSc";
+			        position.innerHTML = "MSc Student";
 			        break
 			    default:
 					position.innerHTML = "Other";
