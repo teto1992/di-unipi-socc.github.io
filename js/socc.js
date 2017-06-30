@@ -1,11 +1,12 @@
 $(function() {
 	loadPeopleFrom("https://raw.githubusercontent.com/di-unipi-socc/di-unipi-socc.github.io/master/resources/members.json");
+	loadCollaboratorsFrom("https://raw.githubusercontent.com/di-unipi-socc/di-unipi-socc.github.io/master/resources/collaborators.json");
 	loadProjectsFrom("https://raw.githubusercontent.com/di-unipi-socc/di-unipi-socc.github.io/master/resources/research-projects.json");
 });
 
 var loadPeopleFrom = function (peopleURL) {
 	$.getJSON(peopleURL, function (people) {
-		var peopleDiv = $("#people-content")[0];
+		var peopleDiv = $("#members-content")[0];
 		$.each(people, function (i) {
 			var p = document.createElement("div");
 			p.className = "col-lg-4";
@@ -51,6 +52,26 @@ var loadPeopleFrom = function (peopleURL) {
 			peopleDiv.appendChild(p);
 		});
 	});
+}
+
+var loadCollaboratorsFrom = function (collaboratorsURL) {
+    $.getJSON(collaboratorsURL, function (collaborators) {
+        var collaboratorsDiv = $("#collaborators-content")[0];
+        $.each(collaborators, function (i) {
+            var c = document.createElement("div");
+            c.className = "col-lg-3";
+
+            var name = document.createElement("h4");
+            name.innerHTML = this.name + " " + this.surname.toUpperCase();
+            c.appendChild(name);
+
+            var period = document.createElement("p");
+            period.innerHTML = this.period;
+            c.appendChild(position);
+
+            collaboratorsDiv.appendChild(c);
+        });
+    });
 }
 
 var loadProjectsFrom = function (projectsURL) {
