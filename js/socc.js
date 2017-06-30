@@ -66,7 +66,10 @@ var loadCollaboratorsFrom = function (collaboratorsURL) {
             c.appendChild(name);
 
             var period = document.createElement("p");
-            period.innerHTML = this.period;
+            if (this.to == "" || this.to == null)
+                period.innerHTML = "since " + this.from;
+            else
+                period.innerHTML = "from " + this.from + " to " + this.to;
             c.appendChild(period);
 
             collaboratorsDiv.appendChild(c);
