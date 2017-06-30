@@ -9,7 +9,7 @@ var loadPeopleFrom = function (peopleURL) {
 		var peopleDiv = $("#members-content")[0];
 		$.each(people, function (i) {
 			var p = document.createElement("div");
-			p.className = "col-lg-4";
+			p.className = "col-lg-4 col-md-6";
 			
 			var name = document.createElement("h3");
 			name.innerHTML = this.name + " " + this.surname.toUpperCase();
@@ -59,17 +59,17 @@ var loadCollaboratorsFrom = function (collaboratorsURL) {
         var collaboratorsDiv = $("#collaborators-content")[0];
         $.each(collaborators, function (i) {
             var c = document.createElement("div");
-            c.className = "col-lg-3";
+            c.className = "col-lg-3 col-md-4 col-sm-6";
 
-            var name = document.createElement("h4");
-            name.innerHTML = this.name + " " + this.surname.toUpperCase();
+            var name = document.createElement("b");
+            name.innerHTML = this.name + "<br>" + this.surname.toUpperCase();
             c.appendChild(name);
 
             var period = document.createElement("p");
             if (this.to == "" || this.to == null)
                 period.innerHTML = "since " + this.from;
             else
-                period.innerHTML = "from " + this.from + " to " + this.to;
+                period.innerHTML = "from " + this.from + "<br>to " + this.to;
             c.appendChild(period);
 
             collaboratorsDiv.appendChild(c);
