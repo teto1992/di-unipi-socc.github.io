@@ -67,7 +67,7 @@ var loadCollaboratorsFrom = function (collaboratorsURL) {
 
             var period = document.createElement("p");
             period.innerHTML = this.period;
-            c.appendChild(position);
+            c.appendChild(period);
 
             collaboratorsDiv.appendChild(c);
         });
