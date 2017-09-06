@@ -1,13 +1,15 @@
-[{
-	"title": "SeaClouds",
-	"subtitle": "Seamless adaptive multi-cloud management of service-based applications",
-	"id": "EU-FP7-ICT-610531",
-	"home": "http://seaclouds-project.eu/",
-	"type": "eu"
-},{
-	"title": "Through the Fog",
-	"subtitle": "Deploying, programming and supporting Fog computing applications",
-	"id": "PRA_2016_64",
-	"home": "http://pages.di.unipi.it/throughthefog/",
-	"type": "unipi"
-}]
+{
+  "projects": [{
+    "title": "SeaClouds",
+    "subtitle": "Seamless adaptive multi-cloud management of service-based applications",
+    "id": "EU-FP7-ICT-610531",
+    "home": "http://seaclouds-project.eu/",
+    "type": "eu"
+  }, {
+    "title": "Through the Fog",
+    "subtitle": "Deploying, programming and supporting Fog computing applications",
+    "id": "PRA_2016_64",
+    "home": "http://pages.di.unipi.it/throughthefog/",
+    "type": "unipi"
+  }]
+}

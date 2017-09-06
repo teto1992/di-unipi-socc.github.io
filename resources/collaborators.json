@@ -1,21 +1,23 @@
-[{
-	"name": "Andrea",
-	"surname": "Canciani",
-  "from": "2015",
-  "to":  ""
-},{
-	"name": "Michela",
-	"surname": "Fazzolari",
-  "from": "2014",
-  "to": "2015"
-},{
-	"name": "Marc",
-	"surname": "Oriol",
-  "from": "2015",
-  "to":  "2016"
-}, {
-	"name": "PengWei",
-	"surname": "Wang",
-  "from": "2014",
-  "to": "2016"
-}]
+{
+  "collaborators": [{
+    "name": "Andrea",
+    "surname": "Canciani",
+    "from": "2015",
+    "to": null
+  }, {
+    "name": "Michela",
+    "surname": "Fazzolari",
+    "from": "2014",
+    "to": "2015"
+  }, {
+    "name": "Marc",
+    "surname": "Oriol",
+    "from": "2015",
+    "to": "2016"
+  }, {
+    "name": "PengWei",
+    "surname": "Wang",
+    "from": "2014",
+    "to": "2016"
+  }]
+}

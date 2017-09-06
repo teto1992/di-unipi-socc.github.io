@@ -1,0 +1,9 @@
+<div class="row">
+  {{#collaborators}}
+  <div class="col-lg-3 col-md-4 col-sm-6">
+    <b>{{name}}<br>{{SURNAME}}</b>
+    <p>since {{from}}<br>
+      {{#to}}to {{to}}{{/to}}</p>
+  </div>
+  {{/collaborators}}
+</div>

@@ -1,37 +1,39 @@
-[{
-	"name": "Antonio",
-	"surname": "Brogi",
-	"photo": "img/people/brogi.png",
-	"home": "http://pages.di.unipi.it/brogi",
-	"position": "full-professor"
-}, {
-	"name": "Ahmad",
-	"surname": "Ibrahim",
-	"photo": "img/people/ibrahim.png",
-	"home": "http://pages.di.unipi.it/ibrahim",
-	"position": "post-doc"
-}, {
-	"name": "Jacopo",
-	"surname": "Soldani",
-	"photo": "img/people/soldani.png",
-	"home": "http://pages.di.unipi.it/soldani",
-	"position": "post-doc"
-}, {
-	"name": "Stefano",
-	"surname": "Forti",
-	"photo": "img/people/forti.png",
-	"home": "http://pages.di.unipi.it/forti",
-	"position": "phd-student"
-}, {
-	"name": "Davide",
-	"surname": "Neri",
-	"photo": "img/people/neri.png",
-	"home": "http://pages.di.unipi.it/neri",
-	"position": "phd-student"
-}, {
-	"name": "Luca",
-	"surname": "Rinaldi",
-	"photo": "img/people/rinaldi.png",
-	"home": "http://lucar.in",
-	"position": "research-assistant"
-}]
+{
+  "members": [{
+    "name": "Antonio",
+    "surname": "Brogi",
+    "photo": "img/people/brogi.png",
+    "home": "http://pages.di.unipi.it/brogi",
+    "position": "full-professor"
+  }, {
+    "name": "Ahmad",
+    "surname": "Ibrahim",
+    "photo": "img/people/ibrahim.png",
+    "home": "http://pages.di.unipi.it/ibrahim",
+    "position": "post-doc"
+  }, {
+    "name": "Jacopo",
+    "surname": "Soldani",
+    "photo": "img/people/soldani.png",
+    "home": "http://pages.di.unipi.it/soldani",
+    "position": "post-doc"
+  }, {
+    "name": "Stefano",
+    "surname": "Forti",
+    "photo": "img/people/forti.png",
+    "home": "http://pages.di.unipi.it/forti",
+    "position": "phd-student"
+  }, {
+    "name": "Davide",
+    "surname": "Neri",
+    "photo": "img/people/neri.png",
+    "home": "http://pages.di.unipi.it/neri",
+    "position": "phd-student"
+  }, {
+    "name": "Luca",
+    "surname": "Rinaldi",
+    "photo": "img/people/rinaldi.jpg",
+    "home": "http://lucar.in",
+    "position": "research-assistant"
+  }]
+}
