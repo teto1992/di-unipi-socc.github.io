@@ -2,42 +2,42 @@
   "withlogo": [{
     "name": "FogTorchPI",
     "logo": "https://raw.githubusercontent.com/di-unipi-socc/FogTorchPI/master/img/logoftpi.PNG",
-    "description": "Tool for probabilistic QoS-assurance and resource consumption estimation of Fog applications.",
+    "description": "Tool for probabilistic QoS-assurance and resource consumption estimation of fog application deployments.",
     "repo": "https://github.com/di-unipi-socc/fogtorchpi"
   }, {
     "name": "DockerFinder",
     "logo": "https://raw.githubusercontent.com/di-unipi-socc/DockerFinder/master/docs/DockerFinder-logo.png",
-	"description": "Microservice-based prototype for automatically searching for Docker images based on multiple attributes.",
+	"description": "Microservice-based tool for automatically searching for Docker images based on multiple attributes.",
     "repo": "https://github.com/di-unipi-socc/dockerfinder"
   }, {
     "name": "TosKer",
     "logo": "https://raw.githubusercontent.com/di-unipi-socc/TosKer/master/data/img/logo/tosker-logo.png",
-    "description": "Multi-component application orchestrator based on TOSCA and Docker",
+    "description": "Docker-based support for orchestrating multi-component applications specified in TOSCA.",
     "repo": "https://github.com/di-unipi-socc/tosker"
   }],
   "withoutlogo": [ {
     "name": "Barrel",
-    "description": "TBD",
+    "description": "Support for designing the management of TOSCA applications.", 
     "repo": "https://github.com/di-unipi-socc/barrel"
   }, {
     "name": "DrACO",
-    "description": "TBD",
+    "description": "Discoverer of cloud offerings specified in TOSCA.",
     "repo": "https://github.com/di-unipi-socc/draco"
   }, {
     "name": "PASA",
-    "description": "TBD",
+    "description": "Probabilistic analyser of QoS in parallel applications.",
     "repo": "https://github.com/ahmad1245/PASA"
   }, {
     "name": "PASO",
-    "description": "TBD",
-    "repo": "https://github.com/upi-bpel/paso"
+    "description": "Probabilistic analyser of QoS in service orchestrations.",
+	"repo": "https://github.com/upi-bpel/paso"
   }, {
     "name": "Sommelier",
-    "description": "TBD",
+    "description": "Validator for TOSCA application topologies",
     "repo": "https://github.com/di-unipi-socc/sommelier"
   }, {
     "name": "TosKeriser",
-    "description": "TBD",
+    "description": "Completer of TOSCA applications that can run with TosKer.",
     "repo": "https://github.com/di-unipi-socc/toskeriser"
   }]
 }
