@@ -2,6 +2,7 @@
   loadPeopleFrom();
   loadCollaboratorsFrom();
   loadProjectsFrom();
+  loadPrototypesFrom();
 })();
 
 function loadPeopleFrom() {
@@ -58,9 +59,20 @@ function loadProjectsFrom() {
   });
 }
 
+function loadPrototypesFrom() {
+  console.log("in prototypes load function")
+  $.getJSON('resources/prototypes.json', function(view) {
+	console.log("prototypes rendering - start");
+    render("#prototypes-content", 'template/prototypes.mst', view);
+	console.log("prototypes rendering - done");
+	console.log(this);
+  });
+}
+
 function render(target, template_file, view) {
   $.get(template_file, function(template) {
     var rendered = Mustache.render(template, view);
+	//console.log(view);
     $(target).html(rendered);
   });
 }
