@@ -46,6 +46,8 @@ function loadProjectsFrom() {
           return "img/projects/eu.png";
         case "it":
           return "img/projects/it.png";
+        case "toscana":
+          return "img/projects/toscana.png";
         case "unipi":
           return "img/projects/unipi.png";
         default:
