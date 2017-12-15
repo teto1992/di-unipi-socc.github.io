@@ -2,7 +2,7 @@
   {{#withlogo}}
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="height:150pt;padding: 10pt">
       <a href="{{repo}}" target="_blank">
-		<img style="height:56pt;padding: 2pt;background-color:white" src="{{logo}}">
+		<img style="height:56pt;padding: 2pt" src="{{logo}}">
 	  </a>
       <p>{{description}}</p>
     </div>
