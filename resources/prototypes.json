@@ -10,16 +10,17 @@
 	"description": "Microservice-based tool for automatically searching for Docker images based on multiple attributes.",
     "repo": "https://github.com/di-unipi-socc/dockerfinder"
   }, {
+    "name": "Barrel",
+    "logo": "https://raw.githubusercontent.com/di-unipi-socc/barrel/master/img/barrel-logo.png",	  
+    "description": "Support for designing the management of TOSCA applications.", 
+    "repo": "https://github.com/di-unipi-socc/barrel"
+  }, {
     "name": "TosKer",
     "logo": "https://raw.githubusercontent.com/di-unipi-socc/TosKer/master/data/img/logo/tosker-logo.png",
     "description": "Docker-based support for orchestrating multi-component applications specified in TOSCA.",
     "repo": "https://github.com/di-unipi-socc/tosker"
   }],
   "withoutlogo": [ {
-    "name": "Barrel",
-    "description": "Support for designing the management of TOSCA applications.", 
-    "repo": "https://github.com/di-unipi-socc/barrel"
-  }, {
     "name": "DrACO",
     "description": "Discoverer of cloud offerings specified in TOSCA.",
     "repo": "https://github.com/di-unipi-socc/draco"
